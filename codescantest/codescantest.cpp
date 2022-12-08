@@ -6,6 +6,9 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    char a[4];
+    strcpy(a, "test");
+    printf("%s\n", a[6]);
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
